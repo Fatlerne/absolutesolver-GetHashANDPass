@@ -1,5 +1,5 @@
 ## Introduction
-This script is designed to obtain a password and then decrypt the PBKDF2-HMAC-SHA256 hash from the website 
+This script is designed to obtain a key PBKDF2-HMAC-SHA256 and then decrypt the hash from the website 
 <a style="text-decoration: none;" href="https://absolutesolver.com/a9f3b7c2d1e4/" target="_blank">
 AbsoluteSolver.com </a>
 
