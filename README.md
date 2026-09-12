@@ -24,6 +24,4 @@ py -m pip download -r requirements.txt
 py main.py
 ```
 
-## Afterword
-Then you just have to wait for the code to do its job and give us a decryption or error. All incorrect passwords will be saved in fail_pass.log and all these incorrect passwords will not be verified in the future. At the moment, I have checked 6242 passwords for 1 problem. (I didn't check the other issues)
 
