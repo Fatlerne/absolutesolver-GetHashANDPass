@@ -597,6 +597,8 @@ if __name__ == "__main__":
 
     if ans == 'y':
         archive_log(LOG1, LOG1 + ".old")
+        archive_log(LOG2, LOG2 + ".old")
+        archive_log(LOG3, LOG3 + ".old")
 
     all_passwords = []
     for parts in product(*ARRAYS):
@@ -622,7 +624,7 @@ if __name__ == "__main__":
         else:
             print("❌ The password does not match the HASH 2.")
         if p3 is not None:
-            print(f"✅ The password is suitable for HASH 1. Decoded: {p3}")
+            print(f"✅ The password is suitable for HASH 3. Decoded: {p3}")
         else:
             print("❌ The password does not match HASH 3.")
         extra_for_2 = [found1]
